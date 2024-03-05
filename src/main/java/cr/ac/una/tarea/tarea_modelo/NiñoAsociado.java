@@ -1,36 +1,39 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- *
- * @author justi
+ * Clase objeto para los niños asociados 
+ * Universidad Nacional - Programación II 2024
+ * @author Stiward Araya
+ * @author Justin Mendez
  */
 public class NiñoAsociado {
- 
-     private String folio;
-     private String nombre;
-    
-    public NiñoAsociado(){
-    this.folio ="";
-    this.nombre="";
- }
-    
-    public void setNombre(String nNombre){
-        this.nombre = nNombre;
+
+    private String folio;
+    private String nombre;
+
+    public NiñoAsociado() {
+        this.folio = "";
+        this.nombre = "";
     }
-    
-    public String getNombre(){
+
+    public NiñoAsociado(String folio, String nombre) {
+        this.folio = folio;
+        this.nombre = nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
         return this.nombre;
     }
-    
-    public void setFolio(String nFolio){
-        this.folio = nFolio;
+
+    public void setFolio(String folio) {
+        this.folio = folio;
     }
-    
-    public String getFolio(){
+
+    public String getFolio() {
         return this.folio;
     }
 }

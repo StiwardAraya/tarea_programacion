@@ -1,17 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- *
- * @author justi
+ * Clase objeto para profesor
+ * Universidad Nacional - Programación II 2024
+ * @author Stiward Araya
+ * @author Justin Mendez
  */
 public class Profesor {
  
     public Profesor(){}
     
-    public void cambiarLogo(){}
-    public void cambiarNombreCoope(){}
+    public void cambiarLogo(){
+        //TODO cambiar logo
+    }
+    
+    public void cambiarNombreCoope(){
+        //TODO cambiar nombre
+    }
+    
 }       

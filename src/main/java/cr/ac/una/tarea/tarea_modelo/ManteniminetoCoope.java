@@ -1,16 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- *
- * @author justi
+ * Clase objeto para el mantenimiento de la cooperativa
+ * Universidad Nacional - Programación II 2024
+ * @author Stiward Araya 
+ * @author Justin Mendez
  */
 public class ManteniminetoCoope {
     
-public ManteniminetoCoope (){}
-    public void cambiarLogo(){}
-    public void cambiarNombreCoope(){}
+    public ManteniminetoCoope (){}
+    
+    public void cambiarLogo(){
+        //TODO cambiar el logo
+    }
+    public void cambiarNombreCoope(){
+        //TODO cambiar el nombre de la Coope
+    }
 }

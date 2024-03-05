@@ -1,19 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- *
- * @author justi
+ * Clase objeto para los niños funcionarios
+ * Universidad Nacional - Programación II 2024
+ * @author Stiward Araya
+ * @author Justin Mendez
  */
 public class NiñoFuncionario {
     
     public NiñoFuncionario(){}
-    public void printCarnet (){}
-    public void abrirNuevaCuenta(){}
-    public void retirarDineroSocio(){}
-    public void depositarDineroSocio(){}
+    
+    public void printCarnet (){
+        //TODO imprimir carnet
+    }
+    
+    public void abrirNuevaCuenta(){
+        //TODO abrir cuenta
+    }
+    
+    public void retirarDineroSocio(){
+        //TODO retirar dinero
+    }
+    
+    public void depositarDineroSocio(){
+        //TODO depositar dinero
+    }
    
 }
