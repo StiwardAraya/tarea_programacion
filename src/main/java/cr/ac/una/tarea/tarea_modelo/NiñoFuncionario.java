@@ -6,24 +6,56 @@ package cr.ac.una.tarea.tarea_modelo;
  * @author Stiward Araya
  * @author Justin Mendez
  */
-public class NiñoFuncionario {
+public class NiñoFuncionario extends Cuenta{
+    private String rutaFoto;
+    int edad;
     
-    public NiñoFuncionario(){}
-    
-    public void printCarnet (){
-        //TODO imprimir carnet
+    public NiñoFuncionario(){
+        super();
+        this.rutaFoto = "";
+        this.edad = 0;
     }
     
-    public void abrirNuevaCuenta(){
-        //TODO abrir cuenta
+    public NiñoFuncionario(String folio, String nombreCuenta, String rutaFoto, int edad){
+        super(folio, nombreCuenta);
+        this.rutaFoto = rutaFoto;
+        this.edad = edad;
     }
     
-    public void retirarDineroSocio(){
-        //TODO retirar dinero
+    @Override
+    public void setNombre(String nombre) {
+        this.nombreCuenta = nombre;
+    }
+
+    @Override
+    public String getNombre() {
+        return this.nombreCuenta;
+    }
+
+    @Override
+    public void setFolio(String folio) {
+        this.folio = folio;
+    }
+
+    @Override
+    public String getFolio() {
+        return this.folio;
     }
     
-    public void depositarDineroSocio(){
-        //TODO depositar dinero
+    public void setRutaFoto(String rutaFoto){
+        this.rutaFoto = rutaFoto;
     }
-   
+    
+    public String getRutaFoto(){
+        return this.rutaFoto;
+    }
+    
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+    
+    public int getEdad(){
+        return this.edad;
+    }
+    
 }

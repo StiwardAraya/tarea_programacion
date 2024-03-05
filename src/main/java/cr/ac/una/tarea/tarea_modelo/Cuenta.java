@@ -7,15 +7,23 @@ package cr.ac.una.tarea.tarea_modelo;
  * @author Justin Mendez
  */
 public abstract class Cuenta {
-    private int idCuenta;
-    private String nombreCuenta;
+    
+    protected String folio;
+    protected String nombreCuenta;
     
     public Cuenta(){
+        this.folio = "";
         this.nombreCuenta = "";
     }
     
-    public Cuenta(String nCuenta){
+    public Cuenta(String folio, String nCuenta){
+        this.folio = folio;
         this.nombreCuenta = nCuenta;
     }
+    
+    public abstract void setFolio(String folio);
+    public abstract String getFolio();
+    public abstract void setNombre(String nombreCuenta);
+    public abstract String getNombre();
     
 }

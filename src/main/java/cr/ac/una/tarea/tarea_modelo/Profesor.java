@@ -7,15 +7,13 @@ package cr.ac.una.tarea.tarea_modelo;
  * @author Justin Mendez
  */
 public class Profesor {
- 
-    public Profesor(){}
     
     public void cambiarLogo(){
-        //TODO cambiar logo
+        //TODO código para cambiar logo
     }
     
     public void cambiarNombreCoope(){
-        //TODO cambiar nombre
+        //TODO código para cambiar el nombre de la cope
     }
     
 }       
