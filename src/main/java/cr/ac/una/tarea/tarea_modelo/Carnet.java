@@ -1,14 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- *
- * @author justi
+ * Clase objeto de carnet
+ * @author Justin Mendez
+ * @author Stiward Araya
  */
 public class Carnet {
-    public Carnet(){}
-    public void converToPdf(){}
+    //private String idCarnet (?
+    
+    public Carnet(){
+        //idCarnet = ""; (?
+    }
+    
+//     public Carnet(String idCarnet){
+//        this.idCarnet = idCarnet; 
+//     }
+    
+    public void converToPdf(){
+        //TODO generar pdf
+    }
 }
