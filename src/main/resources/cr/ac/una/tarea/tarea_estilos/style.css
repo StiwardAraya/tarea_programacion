@@ -3,40 +3,39 @@
     Author     : Stiward Araya & Justin Mendez
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 *{
     /*TODO estilos generales*/
 }
 
 .login-panel{
-    -fx-background-color: #F6F5F5;
+    -fx-background-color: rgb(197, 235, 170);
 }
 
-.login-panel--imagen{
-    -fx-background-image: url(" ~/img/LoginBackground.jpg "); /* No funciona */
-}
+/*.login-panel--imagen{
+    -fx-background-image: url(" ~/img/LoginBackground.jpg ");  No funciona 
+}*/
 
 .login-titulo--principal{
-    -fx-font-family: "Micro 5" sans-serif;
+    -fx-font-family: "Lilita One", sans-serif;
     -fx-font-size: 25px;
-    -fx-text-align: center;
     -fx-text-fill: #0C359E;
 }
 
 .login-boton--ingreso{
-    -fx-background-color: #0C359E;
-    -fx-background-radius: 15%;
-    -fx-transition: all .5s;  /* No funciona */
-    -fx-text-fill: #F6F5F5;
+    -fx-background-color: rgb(197, 235, 170);
+    -fx-alignment: left;
+    -fx-font-family: "Lilita One", sans-serif;
+    -fx-font-size: 20px;
     -fx-cursor: hand;
 }.login-boton--ingreso:hover{
-    -fx-background-color: #EE99C2;
+    -fx-background-color: rgb(165, 221, 155);
 }
 
 .login-label--form{
     -fx-font-size: 14px;
-    -fx-font-family: "Micro 5", sans-serif; /*No funciona*/
+    -fx-font-family: "Lilita One", sans-serif; 
 }
 
 .login-enlace{

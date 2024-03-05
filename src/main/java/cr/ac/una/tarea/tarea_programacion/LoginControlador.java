@@ -5,8 +5,8 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
 /**
@@ -18,9 +18,9 @@ import javafx.scene.input.MouseEvent;
 public class LoginControlador implements Initializable {
 
     @FXML
-    private PasswordField pasTxtContraseña;
+    private Label lblNombreCoope;
     @FXML
-    private TextField txtCarnet;
+    private ImageView imgLogoCoope;
 
     /**
      * Initializes the controller class.
@@ -33,12 +33,22 @@ public class LoginControlador implements Initializable {
     }    
 
     @FXML
-    private void loginIngresar(ActionEvent event) {
-        //TODO 
+    private void openWeb(MouseEvent event) {
+        //TODO
     }
 
     @FXML
-    private void openWeb(MouseEvent event) {
+    private void abrirModuloFuncionario(ActionEvent event) {
+        //TODO
+    }
+
+    @FXML
+    private void abrirModuloAsociado(ActionEvent event) {
+        //TODO
+    }
+
+    @FXML
+    private void abrirModuloProfesor(ActionEvent event) {
         //TODO
     }
     
