@@ -1,9 +1,10 @@
 package cr.ac.una.tarea.tarea_modelo;
 
 /**
- * Clase objeto de control de acceso
+ * Universidad Nacional - Programación II 2024
+ * Clase objeto de AccessControl
+ * @author Stiward Araya 
  * @author Justin Mendez
- * @author Stiward Araya
  */
 public class AccessControl {
     
