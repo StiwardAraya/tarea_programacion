@@ -6,7 +6,8 @@ package cr.ac.una.tarea.tarea_modelo;
  * @author Stiward Araya 
  * @author Justin Mendez
  */
-public class Cuenta {
+public abstract class Cuenta {
+    private int idCuenta;
     private String nombreCuenta;
     
     public Cuenta(){
@@ -15,14 +16,6 @@ public class Cuenta {
     
     public Cuenta(String nCuenta){
         this.nombreCuenta = nCuenta;
-    }
-    
-    public void setNombre(String nCuenta){
-        this.nombreCuenta = nCuenta;
-    }
-    
-    public String getNombre(){
-        return this.nombreCuenta;
     }
     
 }

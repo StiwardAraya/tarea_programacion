@@ -1,4 +1,13 @@
-module-info.class
-cr\ac\una\tarea\tarea_programacion\LoginControlador.class
+cr\ac\una\tarea\tarea_modelo\AccessControl.class
+cr\ac\una\tarea\tarea_modelo\Profesor.class
+cr\ac\una\tarea\tarea_modelo\Carnet.class
 cr\ac\una\tarea\tarea_modelo\Cuenta.class
 cr\ac\una\tarea\tarea_programacion\App.class
+cr\ac\una\tarea\tarea_modelo\PdfGenerator.class
+cr\ac\una\tarea\tarea_modelo\Buzon.class
+module-info.class
+cr\ac\una\tarea\tarea_modelo\ManteniminetoCoope.class
+cr\ac\una\tarea\tarea_modelo\MantenimientoCuentas.class
+cr\ac\una\tarea\tarea_modelo\NiñoFuncionario.class
+cr\ac\una\tarea\tarea_programacion\LoginControlador.class
+cr\ac\una\tarea\tarea_modelo\NiñoAsociado.class
