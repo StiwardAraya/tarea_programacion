@@ -1,0 +1,48 @@
+/* 
+    Created on : 28 feb 2024, 15:37:53
+    Author     : Stiward Araya & Justin Mendez
+*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');*/
+
+*{
+    /*TODO estilos generales*/
+}
+
+.login-panel{
+    -fx-background-color: #F6F5F5;
+}
+
+.login-panel--imagen{
+    -fx-background-image: url(" ~/img/LoginBackground.jpg "); /* No funciona */
+}
+
+.login-titulo--principal{
+    -fx-font-family: "Micro 5" sans-serif;
+    -fx-font-size: 35px;
+    -fx-text-fill: #0C359E;
+}
+
+.login-boton--ingreso{
+    -fx-background-color: #0C359E;
+    -fx-background-radius: 15%;
+    -fx-transition: all .5s;  /* No funciona */
+    -fx-text-fill: #F6F5F5;
+    -fx-cursor: hand;
+}.login-boton--ingreso:hover{
+    -fx-background-color: #EE99C2;
+}
+
+.login-label--form{
+    -fx-font-size: 14px;
+    -fx-font-family: "Micro 5", sans-serif; /*No funciona*/
+}
+
+.login-enlace{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #666666;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
